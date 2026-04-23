@@ -7,9 +7,14 @@
 </head>
     <body>
         <h1>Rechenspiel</h1>
-        <div class="game">
-        <button id="startButton">Start Game</button>
-            
+        <div class="type" style="margin: 10px;">
+            <button onclick="set_plus()">+</button>
+            <button onclick="set_minus()">-</button>
+            <button onclick="set_random()">Random</button>
+        </div>
+        <div class="Guess">
+            <input type="number"/>
+            <button id="startButton">Guess</button>
         </div>
         <script src="java.js"></script>
     </body>
